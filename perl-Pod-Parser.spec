@@ -116,9 +116,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.32.1/Pod/Find.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Pod/InputObjects.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Pod/ParseUtils.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Pod/Parser.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Pod/PlainText.pm
-/usr/lib/perl5/vendor_perl/5.32.1/Pod/Select.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Pod/Find.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Pod/InputObjects.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Pod/ParseUtils.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Pod/Parser.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Pod/PlainText.pm
+/usr/lib/perl5/vendor_perl/5.34.0/Pod/Select.pm
