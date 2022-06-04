@@ -4,7 +4,7 @@
 #
 Name     : perl-Pod-Parser
 Version  : 1.63
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Parser-1.63.tar.gz
 Summary  : Modules for parsing/translating POD format documents
@@ -116,9 +116,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/Pod/Find.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Pod/InputObjects.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Pod/ParseUtils.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Pod/Parser.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Pod/PlainText.pm
-/usr/lib/perl5/vendor_perl/5.34.0/Pod/Select.pm
+/usr/lib/perl5/*
