@@ -7,7 +7,7 @@
 #
 Name     : perl-Pod-Parser
 Version  : 1.67
-Release  : 16
+Release  : 17
 URL      : https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Parser-1.67.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Parser-1.67.tar.gz
 Summary  : 'Modules for parsing/translating POD format documents'
